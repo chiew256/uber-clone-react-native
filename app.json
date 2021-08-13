@@ -1,32 +1,16 @@
 {
   "expo": {
-    "name": "uber-clone",
-    "slug": "uber-clone",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+   "name": "UberClone",
+   "icon": "./images/uber.png",
+   "version": "1.0.0",
+   "slug": "UberClone",
+   "ios": {
+     "bundleIdentifier": "com.ios.uberclone",
+     "buildNumber": "1.0.0"
+   },
+   "android": {
+     "package": "com.android.uberclone",
+     "versionCode": 1
+   }
   }
 }

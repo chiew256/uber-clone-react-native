@@ -76,7 +76,7 @@ const RideOptionsCard = () => {
                                 style: 'currency',
                                 currency: 'GBP',
                             }).format(
-                                (timeTravelInformation?.duration.value * SURGE_CHARGE_RATE * multiplier) / 100
+                                (timeTravelInformation?.duration?.value * SURGE_CHARGE_RATE * multiplier) / 100
                             )}
                         </Text>
                     </TouchableOpacity>
